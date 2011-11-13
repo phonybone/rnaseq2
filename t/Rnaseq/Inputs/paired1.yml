@@ -1,0 +1,2 @@
+input_files: s_1_1.fq,s_1_2.fq
+paired_end: true

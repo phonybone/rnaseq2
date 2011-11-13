@@ -1,0 +1,16 @@
+*.pyc
+*#*
+*.#*
+*.sqlite3
+*.db
+*.sh
+*.qsub
+*.err
+*.out
+programs/*
+TODO
+*-journal
+*.bak
+*.tgz
+docs/example/paired2/*
+indexes/*
