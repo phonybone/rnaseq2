@@ -1,0 +1,7 @@
+s_1:
+  files: s_1_1.fq, s_1_2.fq
+  paired_end: true
+
+s_2:
+  files: s_2_1.fq, s_2_2.fq
+  paired_end: true

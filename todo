@@ -1,0 +1,10 @@
+find out why run_tests.py isn't working on the laptop
+
+build more steps (filters, mapsplice, tophat, cufflinks, samtools, etc)
+
+build the pipeline object
+- continuity checks
+- runtime success checks
+
+build provenance
+- it's its own system

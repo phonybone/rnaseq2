@@ -1,0 +1,5 @@
+paired1:
+  data_dir: \%(rnaseq_dir)s/t/fixtures/data
+  working_dir: \%(rnaseq_dir)s/t/fixtures/working_dir
+  files: s_1_1.fq,s_1_2.fq
+  paired_end: true

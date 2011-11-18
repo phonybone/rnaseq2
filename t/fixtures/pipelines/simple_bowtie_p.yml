@@ -1,0 +1,19 @@
+name: simple_bowtie_t
+description: do alignments on paired end data using bowtie
+stepnames: Header Link Bowtie Footer
+
+Header:
+  inputs: inputs
+
+Link:
+  inputs: Header
+
+Bowtie:
+  inputs: Link
+  index: /proj/hoodlab/share/programs/bowtie-indexes/hg19
+  max_mismatches: 1
+  output_format: sam
+  args: -n -k 1
+
+Footer: 
+  inputs: Bowtie
